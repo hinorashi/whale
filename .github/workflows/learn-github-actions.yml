@@ -19,3 +19,5 @@ jobs:
       - name: Bankai
         run: ./.github/scripts/bankai.sh
         shell: bash
+        env:
+          MYNAME: hino
