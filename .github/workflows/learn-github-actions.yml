@@ -2,8 +2,7 @@ name: learn-github-actions
 on: [push]
 jobs:
   play:
-    #runs-on: ubuntu-18.04
-    runs-on: self-hosted
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -22,3 +21,4 @@ jobs:
         shell: bash
         env:
           MYNAME: hino
+
